@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<title>titanic</title>
+		<style> 
+			body{
+				font-family: avenir;
+				margin: 25px;
+				background-color
+			}
+
+			.men{
+				width: 100px;
+				height:50px;
+				x:5;
+				y:20;
+				rx:20;
+				ry:20;
+				fill: blue;
+				transition: 1.2s;
+			}
+
+			.men:hover{
+				width: 840px;
+				height: 50px;
+				stroke-width: 2px;
+			}
+
+			.women{
+				width: 100px;
+				height:50px;
+				x:5;
+				y:80;
+				rx:20;
+				ry:20;
+				fill: lightpink;
+				transition: 0.7s;
+			}
+
+			.women:hover{
+				width: 240px;
+				height: 50px;
+				stroke-width: 2px;
+			}
+
+			.kids{
+				width: 100px;
+				height:50px;
+				x:5;
+				y:140;
+				rx:20;
+				ry:20;
+				fill: orange;
+				transition: 1s;
+			}
+
+			.kids:hover{
+				width: 420px;
+				height: 50px;
+				stroke-width: 2px;
+			}
+
+		</style>
+	</head>
+	<body>
+		<h1>was it really women and children first?</h1>
+		<p>here are the results of my data science project: </p>
+		<img src="titanicsink.jpg">
+
+		<br>
+		<svg width="860" height ="300">
+			<rect class="men"/>
+			<rect class="women"/>
+			<rect class="kids"/>
+
+			width="420" height ="50" x="0" y="140" rx="20" ry="20" fill="orange"/>
+			<text x="15" y="50" fill="white">men</text>
+			<text x="15" y="110" fill="white">women</text>
+			<text x="15" y="170" fill="white">children</text>
+			<text x="790" y="50" fill="white">84%</text>
+			<text x="200" y="110" fill="white">24%</text>
+			<text x="370" y="170" fill="white">42%</text>
+		</svg>
+	</body>
+</html>
